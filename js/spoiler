@@ -1,0 +1,6 @@
+
+$(document).ready(function(){
+$('.spoiler-body').hide();
+$('.spoiler-title').click(function(){
+    $(this).next().toggle()});
+});
