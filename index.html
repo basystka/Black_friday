@@ -4,80 +4,200 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Black Friday</title>
 </head>
 <body>
     <header>
-        <nav id="mainNavbar" class="navbar navbar-dark">            
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="?" class="navbar-brand logo">Unlock hardware and software, repair and flash tools, spare parts and cables for cell phones servicing - GsmServer</a>
-            <a href="?" class="navbar-brand chat-icon">Chat</a>
+        <nav id="mainNavbar" class="navbar navbar-dark" role="navigation">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"aria-label="Toggle navigation"></button>
+            <a href="?" class="logo"><strong>Unlock hardware and software, repair and flash tools, spare parts and
+                    cables for cell phones servicing - GsmServer</strong></a>
+            <a href="?" class="chat-icon"><strong>Chat</strong></a>
             <div id="navLinks" class="collapse navbar-collapse">
+                <form action="">
+                    <input type="search" name="" placeholder="Search" id="">
+                    <button type="submit">Find</button>
+                </form>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="?">Flash and Unlock</a>
+                        <a href="?">Flash and Unlock</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?" >Cell Phone Parts</a>
+                        <a href="?">Cell Phone Parts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?" >Repair Equipment</a>
+                        <a href="?">Repair Equipment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?" >Car Electronics</a>
+                        <a href="?">Car Electronics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?" >Parts and Components</a>
+                        <a href="?">Parts and Components</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?" >Energy Saving</a>
+                        <a href="?">Energy Saving</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?" >Go to Cart</a>
+                        <a href="?">Go to Cart</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?" >Log in</a>
+                        <a href="?">Log in</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="baner">
-            <div class="black_area">
-              <img src="black_friday-assets/black_left.png" alt="black stripe in the left side">
-              <img class="img-responsive" src="black_friday-assets/black_middle.png" alt="black stripe in the middle">
-              <div class="top-square">black friday<span>exclusive discounts</span></div>
-              <img class="img-responsive" src="black_friday-assets/black_right.png" alt="black stripe in the right side">
-            </div>
-            <div class='under_black_area'>up to 27%</div>
+        <div class="banner">
+            <h1>Black Friday <span>exclusive discounts</span> <strong>up to 27%</strong></h1>
             <div class="counter">
                 <div id="CDT"></div>
             </div>
-           
-            <div class="bottom_black_area">
-                <p>Заходите к нам на сайт 27 ноября! В самую незабываемую пятницу года в интернет-магазине GsmServer
-                  стартует самая безудержная распродажа. Окунитесь в мир невероятных скидок на все товары GSM-тематики.</p>
-            </div>
-        </div>      
+            <p>Заходите к нам на сайт 27 ноября! В самую незабываемую пятницу года в&nbsp;интернет-&nbsp;магазине
+                GsmServer стартует самая безудержная распродажа. Окунитесь в мир невероятных скидок на все товары
+                GSM-тематики.</p>
+        </div>
         <div class="container-fluid">
-            <div class="row">
-                <ul class="bottom-menu col-10">
-                    <li><a class="unlock" href="#flash"><img src="black_friday-assets/friday_unlock.png" alt=""><p>Flash & Unlock</p></a></li>
-                    <li><a class="tab-lamp" href="#lamps"><img src="black_friday-assets/friday_lamp.png" alt=""><p>Table Lamps</p></a></li>
-                    <li><a class="toys" href="#stem"><img src="black_friday-assets/friday_stem.png" alt=""><p>STEM Toys & Hobbies</p></a></li>
-                    <li><a class="save" href="#energysave"><img src="black_friday-assets/friday_energy.png" alt=""><p>Energy Saving</p></a></li>
-                    <li><a class="electronics" href="#car"><img src="black_friday-assets/friday_car.png" alt=""><p>Car Electronics</p></a></li>   
+            <div class="menu-bg row">
+                <ul class="bottom-menu col-12">
+                    <li><a class="unlock" href="#flash">Flash &&nbsp;Unlock</a></li>
+                    <li><a class="tab-lamp" href="#lamps">Table Lamps</a></li>
+                    <li><a class="toys" href="#stem">STEM Toys &&nbsp;Hobbies</a></li>
+                    <li><a class="save" href="#energysave">Energy Saving</a></li>
+                    <li><a class="electronics" href="#car">Car Electronics</a></li>
                 </ul>
             </div>
         </div>
     </header>
-    <script src="js/countdown.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <section class="container-fluid">
+        <h2 id="flash" class="col-12">Flash & Unlock <strong>−27%</strong></h2>
+        <div class="main_content row">
+            <div class="prod-wrapper col-lg-4">
+                <div class="product row">
+                    <div class="lg-view col-6 col-md-4">
+                        <a class="img-link" href="?"><img src="image/octopus.jpg" alt="octopus"></a>
+                    </div>
+                    <div class="description col-6 col-lg-12">
+                        <h3><a href="?">Octoplus Box Samsung + LG + JTAG Activated with Optimus Cable Set + JIG Set</a>
+                        </h3>
+                        <p class="d-none d-lg-block">Octoplus Box is a groundbreaking phone servicing solution that
+                            combines unibox and JTAG interfaces and supports over 530 Samsung, 900 LG and 460 by JTAG
+                            mobile devices.</p>
+                    </div>
+                    <div class="price-section col-6">
+                        <p class="content_price"><del>USD 328.00</del><ins>USD 318.50</ins></p>
+                        <a class="buy" href="?" type="submit">buy now</a>
+                        <a class="more d-none d-lg-block" href="#">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="prod-wrapper col-lg-4">
+                <div class="product row">
+                    <div class="lg-view col-6 col-md-4">
+                        <a class="img-link" href="?"><img src="image/octopus_edition.jpg" alt="octopus"></a>
+                    </div>
+                    <div class="description col-6 col-lg-12">
+                        <h3><a href="?">Octopus Box Samsung + LG Edition with Optimus Cable Set</a></h3>
+                        <p class="d-none d-lg-block">Octopus Samsung + LG Edition lets you perform Flash/Unlock/Repair
+                            operations with LG & Samsung cell phones with Octopus Box service tool.</p>
+                    </div>
+                    <div class="price-section col-6">
+                        <p class="content_price"><del>USD 229.00</del><ins>USD 219.99</ins></p>
+                        <a class="buy" href="?" type="submit">buy now</a>
+                        <a class="more d-none d-lg-block" href="#">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="prod-wrapper col-lg-4">
+                <div class="product row">
+                    <div class="lg-view col-6 col-md-4">
+                        <a class="img-link" href="?"><img src="image/octopus_edition.jpg" alt="octopus"></a>
+                    </div>
+                    <div class="description col-6 col-lg-12">
+                        <h3><a href="?">Octopus Box Samsung + LG Edition with Optimus Cable Set</a></h3>
+                        <p class="d-none d-lg-block">Octopus Samsung + LG Edition lets you perform Flash/Unlock/Repair
+                            operations with LG & Samsung cell phones with Octopus Box service tool.</p>
+                    </div>
+                    <div class="price-section col-6">
+                        <p class="content_price"><del>USD 229.00</del><ins>USD 219.99</ins></p>
+                        <a class="buy" href="?" type="submit">buy now</a>
+                        <a class="more d-none d-lg-block" href="#">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="go_to col-12 col-lg-4">
+            <a class="category" href="?">Go to category</a>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <h2 id="lamps" class="col-12">Table Lamps <strong>−11%</strong></h2>
+        <div class="main_content row">
+            <div class="prod-wrapper col-lg-4">
+                <div class="product row">
+                    <div class="lg-view col-6 col-md-4">
+                        <a class="img-link" href="?"><img src="image/octopus.jpg" alt="octopus"></a>
+                    </div>
+                    <div class="description col-6 col-lg-12">
+                        <h3><a href="?">Octoplus Box Samsung + LG + JTAG Activated with Optimus Cable Set + JIG Set</a>
+                        </h3>
+                        <p class="d-none d-lg-block">Octoplus Box is a groundbreaking phone servicing solution that
+                            combines unibox and JTAG interfaces and supports over 530 Samsung, 900 LG and 460 by JTAG
+                            mobile devices.</p>
+                    </div>
+                    <div class="price-section col-6">
+                        <p class="content_price"><del>USD 328.00</del><ins>USD 318.50</ins></p>
+                        <a class="buy" href="?" type="submit">buy now</a>
+                        <a class="more d-none d-lg-block" href="#">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="prod-wrapper col-lg-4">
+                <div class="product row">
+                    <div class="lg-view col-6 col-md-4">
+                        <a class="img-link" href="?"><img src="image/octopus_edition.jpg" alt="octopus"></a>
+                    </div>
+                    <div class="description col-6 col-lg-12">
+                        <h3><a href="?">Octopus Box Samsung + LG Edition with Optimus Cable Set</a></h3>
+                        <p class="d-none d-lg-block">Octopus Samsung + LG Edition lets you perform Flash/Unlock/Repair
+                            operations with LG & Samsung cell phones with Octopus Box service tool.</p>
+                    </div>
+                    <div class="price-section col-6">
+                        <p class="content_price"><del>USD 229.00</del><ins>USD 219.99</ins></p>
+                        <a class="buy" href="?" type="submit">buy now</a>
+                        <a class="more d-none d-lg-block" href="#">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="prod-wrapper col-lg-4">
+                <div class="product row">
+                    <div class="lg-view col-6 col-md-4">
+                        <a class="img-link" href="?"><img src="image/octopus_edition.jpg" alt="octopus"></a>
+                    </div>
+                    <div class="description col-6 col-lg-12">
+                        <h3><a href="?">Octopus Box Samsung + LG Edition with Optimus Cable Set</a></h3>
+                        <p class="d-none d-lg-block">Octopus Samsung + LG Edition lets you perform Flash/Unlock/Repair
+                            operations with LG & Samsung cell phones with Octopus Box service tool.</p>
+                    </div>
+                    <div class="price-section col-6">
+                        <p class="content_price"><del>USD 229.00</del><ins>USD 219.99</ins></p>
+                        <a class="buy" href="?" type="submit">buy now</a>
+                        <a class="more d-none d-lg-block" href="#">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="go_to col-12 col-lg-4">
+            <a class="category" href="?">Go to category</a>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/common.min.js"></script>
+    <script src="js/countdown.js"></script>
 </body>
 </html>
