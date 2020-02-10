@@ -21,7 +21,7 @@
         text-align: center;
         &::before{
             content: '';
-            background: url(black_friday-assets/black_check.png);
+            background: url(../black_friday-assets/black_check.png);
             display: block;
             width: 165px;
             height: 155px;
@@ -59,6 +59,12 @@
             @extend #icm;
             color: $tomato;
             margin-left: 15px;    
+        }
+        &:hover,
+        &:focus{
+            color: $tomato;
+            opacity: .5;
+            border-color: $tomato;
         }
         @media (min-width: 768px){
             font-size: 20px;

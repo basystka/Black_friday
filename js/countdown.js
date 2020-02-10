@@ -52,7 +52,7 @@ CountdownTimer.prototype={
 function CDT(){
 
  // Set countdown limit
- let tl = new Date('2020/11/30 22:23:00');
+ let tl = new Date('2020/11/30 00:00:00');
 
  let timer = new CountdownTimer('CDT',tl,`
 	<div id="banner-dummy">

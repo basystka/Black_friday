@@ -59,6 +59,9 @@ table {
 #bold, h1, h2, h3, .product ins, #navLinks a::after {
   font-weight: 700; }
 
+#transition, a, #navLinks a::before {
+  transition: all .15s ease-in 0s; }
+
 body, input, textarea, button, select {
   font-family: Roboto,'Arial Cyr',Arial,Helvetica,'Lucida Console','Lucida Sans Unicode',Tahoma,Verdana,'Myriad Pro','Trebuchet MS',Calibri,Sans-Serif; }
 
@@ -407,6 +410,8 @@ ins {
     color: #fff;
     padding: 1em;
     text-align: center; }
+    .bottom-menu li a:hover, .bottom-menu li a:focus {
+      background: #222; }
     @media (min-width: 768px) {
       .bottom-menu li a {
         flex-direction: row;
@@ -429,8 +434,6 @@ ins {
       content: '\e905'; }
     .bottom-menu li a.electronics::before {
       content: '\e907'; }
-  .bottom-menu li:hover, .bottom-menu li:focus {
-    background: #222; }
 
 .go_to {
   padding: 0;
@@ -463,7 +466,8 @@ ins {
   .category:hover, .category:focus {
     background: #2b2b2b;
     color: #fff;
-    box-shadow: none; }
+    box-shadow: none;
+    opacity: .9; }
   .category:active {
     color: #fff; }
 
@@ -535,7 +539,7 @@ ins {
     text-align: center; }
     .dummy-wrapper p::before {
       content: '';
-      background: url(black_friday-assets/black_check.png);
+      background: url(../black_friday-assets/black_check.png);
       display: block;
       width: 165px;
       height: 155px;
@@ -567,6 +571,10 @@ ins {
       content: '\e90c';
       color: #ff3838;
       margin-left: 15px; }
+    .dummy-wrapper a:hover, .dummy-wrapper a:focus {
+      color: #ff3838;
+      opacity: .5;
+      border-color: #ff3838; }
     @media (min-width: 768px) {
       .dummy-wrapper a {
         font-size: 20px;
@@ -595,8 +603,6 @@ ins {
     @media (min-width: 1200px) {
       #navLinks a {
         font-size: 26px; } }
-    #navLinks a:hover, #navLinks a:focus {
-      color: #ff3838; }
     #navLinks a::after {
       content: '\e90b';
       font-size: 1.2em;
@@ -607,7 +613,12 @@ ins {
       top: 0;
       bottom: 0;
       left: 0;
-      right: 0; }
+      right: 0;
+      z-index: -1; }
+    #navLinks a:hover, #navLinks a:focus {
+      color: #ff3838; }
+      #navLinks a:hover::before, #navLinks a:focus::before {
+        background: rgba(204, 204, 204, 0.25); }
   #navLinks form {
     display: flex;
     align-items: center;
@@ -652,9 +663,6 @@ ins {
   #navLinks li {
     border-bottom: 1px solid #ebebeb;
     position: relative; }
-    #navLinks li:hover, #navLinks li:focus {
-      background: #ccc;
-      opacity: .8; }
 
 .more {
   color: #2b2b2b; }
