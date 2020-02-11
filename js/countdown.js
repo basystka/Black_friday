@@ -58,7 +58,7 @@ function CDT(){
 	<div id="banner-dummy">
 		<div class="dummy-wrapper">
 		<p>The Black Friday Promo is Over</p>
-		<a class="dummy-button" href="#">Try to find some interesting offers here</a>
+		<a class="dummy-button" href="https://gsmserver.com/">Try to find some interesting offers here</a>
 		</div>
 	</div>`);
  	timer.countDown();
