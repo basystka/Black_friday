@@ -38,7 +38,7 @@ table {
 * {
   outline: none !important; }
 
-#none {
+#none, #mainNavbar strong {
   display: none; }
 
 #icm, h2 strong::after, #mainNavbar .logo::before, #mainNavbar .chat-icon::before, #mainNavbar .navbar-toggler::before, .bottom-menu li a::before, .category::after, .dummy-wrapper a::after, #navLinks a::after, #navLinks form button::before, .more::after {
@@ -224,8 +224,6 @@ ins {
 
 #mainNavbar {
   padding: 20px 20px 40px 20px; }
-  #mainNavbar strong {
-    display: none; }
   #mainNavbar .logo, #mainNavbar .chat-icon, #mainNavbar .navbar-toggler {
     color: #fff;
     font-size: 2rem;

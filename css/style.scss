@@ -254,7 +254,7 @@ ins {
 #mainNavbar{
 	padding: 20px 20px 40px 20px;
 	strong{
-		display: none;
+		@extend #none;
 	}
 	.logo, .chat-icon, .navbar-toggler {
 		color: #fff;
